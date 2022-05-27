@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = 'Git is a program that allows programmers to create checkpoints in their code and allows collaboration with other programmers.'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = 'GitHub is a website where programmers can push their projects to through Git repositories'
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -33,7 +33,7 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+let init = {description: 'Initializes a repository', code: 'git init'}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +41,7 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+let clone = {description: 'Creates a working copy of an existing git repository', code: 'git clone'}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +49,7 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+let status = {description: 'Displays the state of the working directory. Displays tracked and untracked files. Displays changes made, if there are any.', code: 'git status'}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +57,7 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add = {description: 'Sets up changes to be made to the working directory to the staging area', code: 'git add .'}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +65,7 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit = {description: 'Creates a snapshot of the staged changes', code: 'git commit -m "insert a comment"'}
 
 
 //////////////////PROBLEM 8////////////////////
@@ -74,4 +74,4 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push = {description: 'Pushes the local repository to a remote repository', code: 'git push'}
