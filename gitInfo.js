@@ -41,7 +41,7 @@ let init = {description: 'Initializes a repository', code: 'git init'}
     following the guidelines above to describe the clone command.
 */
 
-let clone = {description: 'Creates a working copy of an existing git repository', code: 'git clone'}
+let clone = {description: 'Creates a working copy of an existing git repository', code: 'git clone </URL>'}
 
 //////////////////PROBLEM 5////////////////////
 /*
