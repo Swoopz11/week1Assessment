@@ -12,8 +12,11 @@ reader.question("Enter password for validation: ", function(input){
 	
 	if (tokens.length >= 10) {
         console.log('Password validated!')
-    } else {
+    } else if (tokens.length === 0) {
+        console.log('No password to validate')
+    } else if (tokens.length < 10) {
         console.log('Password is not long enough')
+    
     }
 
     reader.close()
