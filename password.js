@@ -8,13 +8,13 @@ const reader = readline.createInterface({
 
 console.log('Welcome to the password validator!')
 reader.question("Enter password for validation: ", function(input){
-	const tokens = input;
+	const password = input;
 	
-	if (tokens.length >= 10) {
+	if (password.length >= 10) {
         console.log('Password validated!')
-    } else if (tokens.length === 0) {
+    } else if (password.length === 0) {
         console.log('No password to validate')
-    } else if (tokens.length < 10) {
+    } else if (password.length < 10) {
         console.log('Password is not long enough')
     
     }
